@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    ActionViewClass: An action view is an action that provides rich functionality
+    within the app bar. For example, a search action view allows the user to type their
+    search text in the app bar, without having to change activities or fragments.
+    For the meaning of showAsAction attributes see https://developer.android.com/guide/topics/resources/menu-resource
+    -->
+    <item
+        android:id="@+id/appSearchBar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

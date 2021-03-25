@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuVideo"
+        android:title="@string/Youtube"/>
+
+    <item
+        android:id="@+id/mnuShare"
+        android:title="@string/Share"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/mnuQuit"
+        android:title="@string/Quit" />
+
+</menu>

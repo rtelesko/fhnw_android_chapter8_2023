@@ -1,0 +1,6 @@
+include ':LotteryToolbarStart'
+include ':LotteryToolbarSearch'
+include ':LotteryToolbarDev'
+include ':BitsandPizzas'
+include ':app'
+rootProject.name = "Chapter8"

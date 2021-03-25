@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lottery ToolbarSearch</string>
+    <string name="noresults">No results</string>
+    <string-array name="players">
+        <item>John Doe</item>
+        <item>Joe Biden</item>
+        <item>Donald Trump</item>
+        <item>Jeff Bridges</item>
+        <item>Mary Johnson</item>
+        <item>Robert Fowler</item>
+    </string-array>
+</resources>
