@@ -6,6 +6,7 @@
     tools:context="com.example.lotterytoolbardev.MainActivity">
 
     <include
+        android:id="@+id/tbDev"
         layout="@layout/toolbar"/>
 
 </RelativeLayout>
