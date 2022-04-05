@@ -9,10 +9,7 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-import static com.example.lotterytoolbardev.MainActivity.YOUTUBEID;
-
 public class YouTubeActivity extends YouTubeBaseActivity {
-
 
     private YouTubePlayerView youTubePlayerView;
 
@@ -26,7 +23,7 @@ public class YouTubeActivity extends YouTubeBaseActivity {
 
         // Fetch YouTube video ID
         Intent intent = getIntent();
-        String videoID = intent.getStringExtra(YOUTUBEID);
+        String videoID = intent.getStringExtra(MainActivity.YOUTUBEID);
         playVideo(videoID, youTubePlayerView);
     }
 
