@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ch.fhnw.chapter8">
 
+    <!-- Works with an AVD API 29 ! -->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
